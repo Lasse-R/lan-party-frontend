@@ -54,7 +54,7 @@ window.addEventListener("load", async () => {
             } ,
             "/user": () => {
                 renderTemplate(templateUserPage, content)
-                //userPageSetup()
+                userPageSetup()
             },
             "/register": () => {
                 renderTemplate(templateRegistrer, content)
